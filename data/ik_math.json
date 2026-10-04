@@ -1,0 +1,14 @@
+[
+  {"idx": 0, "question": "12 乘以 8 等于多少？", "answer": 96},
+  {"idx": 1, "question": "144 的算术平方根是多少？", "answer": 12},
+  {"idx": 2, "question": "45 加 37 等于多少？", "answer": 82},
+  {"idx": 3, "question": "100 除以 4 等于多少？", "answer": 25},
+  {"idx": 4, "question": "2 的 10 次方等于多少？", "answer": 1024},
+  {"idx": 5, "question": "从 1 加到 10 的总和是多少？", "answer": 55},
+  {"idx": 6, "question": "一个长方形长 8、宽 5，它的面积是多少？", "answer": 40},
+  {"idx": 7, "question": "四分之三加四分之一等于多少？", "answer": 1},
+  {"idx": 8, "question": "17 乘以 3 等于多少？", "answer": 51},
+  {"idx": 9, "question": "1000 减去 456 等于多少？", "answer": 544},
+  {"idx": 10, "question": "6 的立方等于多少？", "answer": 216},
+  {"idx": 11, "question": "20 的 15% 是多少？", "answer": 3}
+]

@@ -1,0 +1,153 @@
+{
+  "n_items": 64,
+  "profiles": [
+    "calibrated",
+    "overconfident",
+    "underconfident",
+    "blind"
+  ],
+  "test_retest": {
+    "calibrated": {
+      "accuracy": {
+        "mean": 0.7094,
+        "std": 0.1025
+      },
+      "ece": {
+        "mean": 0.1109,
+        "std": 0.0201
+      },
+      "brier": {
+        "mean": 0.1866,
+        "std": 0.0309
+      },
+      "auroc": {
+        "mean": 0.6944,
+        "std": 0.0896
+      },
+      "conf_correct_r": {
+        "mean": 0.3052,
+        "std": 0.1468
+      }
+    },
+    "overconfident": {
+      "accuracy": {
+        "mean": 0.6687,
+        "std": 0.0498
+      },
+      "ece": {
+        "mean": 0.2453,
+        "std": 0.0498
+      },
+      "brier": {
+        "mean": 0.2695,
+        "std": 0.0399
+      },
+      "auroc": {
+        "mean": 0.6323,
+        "std": 0.0433
+      },
+      "conf_correct_r": {
+        "mean": 0.2421,
+        "std": 0.0936
+      }
+    },
+    "underconfident": {
+      "accuracy": {
+        "mean": 0.6687,
+        "std": 0.0498
+      },
+      "ece": {
+        "mean": 0.2181,
+        "std": 0.0403
+      },
+      "brier": {
+        "mean": 0.2491,
+        "std": 0.0112
+      },
+      "auroc": {
+        "mean": 0.6574,
+        "std": 0.0482
+      },
+      "conf_correct_r": {
+        "mean": 0.2559,
+        "std": 0.0738
+      }
+    },
+    "blind": {
+      "accuracy": {
+        "mean": 0.7094,
+        "std": 0.1025
+      },
+      "ece": {
+        "mean": 0.2213,
+        "std": 0.09
+      },
+      "brier": {
+        "mean": 0.2626,
+        "std": 0.014
+      },
+      "auroc": {
+        "mean": 0.4886,
+        "std": 0.0569
+      },
+      "conf_correct_r": {
+        "mean": -0.0034,
+        "std": 0.0856
+      }
+    }
+  },
+  "split_half": {
+    "calibrated": {
+      "half1": {
+        "ece": 0.165,
+        "auroc": 0.8097,
+        "accuracy": 0.5938
+      },
+      "half2": {
+        "ece": 0.0806,
+        "auroc": 0.6914,
+        "accuracy": 0.7812
+      }
+    },
+    "overconfident": {
+      "half1": {
+        "ece": 0.3516,
+        "auroc": 0.5952,
+        "accuracy": 0.5625
+      },
+      "half2": {
+        "ece": 0.1047,
+        "auroc": 0.6987,
+        "accuracy": 0.8125
+      }
+    },
+    "underconfident": {
+      "half1": {
+        "ece": 0.2062,
+        "auroc": 0.631,
+        "accuracy": 0.5625
+      },
+      "half2": {
+        "ece": 0.3469,
+        "auroc": 0.6987,
+        "accuracy": 0.8125
+      }
+    },
+    "blind": {
+      "half1": {
+        "ece": 0.1216,
+        "auroc": 0.4696,
+        "accuracy": 0.5938
+      },
+      "half2": {
+        "ece": 0.3012,
+        "auroc": 0.6514,
+        "accuracy": 0.7812
+      }
+    }
+  },
+  "anti_cheating": {
+    "held_out_private_set": "data/ 为演示集；真正私有测试集由主办方持有，不随仓库公开",
+    "no_public_leak": "指标基于模型内部置信度信号，不依赖公开答案键"
+  }
+}

@@ -1,0 +1,22 @@
+[
+  {"idx": 0, "statement": "地球绕太阳公转。", "answer": true},
+  {"idx": 1, "statement": "在标准大气压下，水在 100 摄氏度沸腾。", "answer": true},
+  {"idx": 2, "statement": "光在空气中的传播速度比声音慢。", "answer": false},
+  {"idx": 3, "statement": "鲸鱼属于鱼类。", "answer": false},
+  {"idx": 4, "statement": "人体细胞的细胞质中含有线粒体。", "answer": true},
+  {"idx": 5, "statement": "火星是离太阳最近的行星。", "answer": false},
+  {"idx": 6, "statement": "勾股定理适用于所有三角形。", "answer": false},
+  {"idx": 7, "statement": "中国位于亚洲东部。", "answer": true},
+  {"idx": 8, "statement": "地球表面的重力加速度约为 9.8 米每二次方秒。", "answer": true},
+  {"idx": 9, "statement": "氧气约占地球大气体积的 78%。", "answer": false},
+  {"idx": 10, "statement": "金字塔主要分布在埃及。", "answer": true},
+  {"idx": 11, "statement": "企鹅生活在北极地区。", "answer": false},
+  {"idx": 12, "statement": "DNA 分子呈现双螺旋结构。", "answer": true},
+  {"idx": 13, "statement": "光年是时间单位。", "answer": false},
+  {"idx": 14, "statement": "水由氢和氧两种元素组成。", "answer": true},
+  {"idx": 15, "statement": "太阳每天从西边升起。", "answer": false},
+  {"idx": 16, "statement": "蝙蝠属于哺乳动物。", "answer": true},
+  {"idx": 17, "statement": "铁的密度比铝小。", "answer": false},
+  {"idx": 18, "statement": "四季更替是由地球自转直接造成的。", "answer": false},
+  {"idx": 19, "statement": "计算机的中央处理器（CPU）属于硬件。", "answer": true}
+]
